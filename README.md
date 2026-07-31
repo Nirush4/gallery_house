@@ -249,7 +249,7 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Author
 
-Developed by **<Nirushan Rajamanoharan (@Nirush4)>**
+Developed by **Nirushan Rajamanoharan (@Nirush4)**
 
 ---
 
