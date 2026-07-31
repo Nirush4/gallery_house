@@ -226,20 +226,18 @@ Project workflow:
 ↓
 ✅ Done
 
-```
-
 ---
 
 # 📚 Documentation
 
 Additional documentation can be found in the `docs/` directory.
 
-* Architecture
-* Design System
-* API
-* Deployment
-* Contributing
-* Roadmap
+- Architecture
+- Design System
+- API
+- Deployment
+- Contributing
+- Roadmap
 
 ---
 
@@ -256,4 +254,3 @@ Developed by **<Nirushan Rajamanoharan (@Nirush4)>**
 ---
 
 > **Gallery House** is a portfolio project focused on building a modern, scalable, and production-ready frontend application using contemporary React development practices.
-```
