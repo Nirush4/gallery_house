@@ -19,7 +19,7 @@ export function Navbar() {
 
   return (
     <>
-      <Box bg="red.9" c="gray.0" py={10}>
+      <Box bg="red.9" c="accent.2" py={10}>
         <Container size="xl">
           <Flex justify="space-between" align="center">
             <Box
@@ -51,7 +51,7 @@ export function Navbar() {
       </Box>
 
       <Box
-        bg="gray.0"
+        bg="accent.2"
         style={{
           borderBottom: "1px solid var(--mantine-color-gray-3)",
         }}

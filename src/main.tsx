@@ -38,7 +38,7 @@ const theme = createTheme({
     NavLink: {
       styles: {
         root: {
-          color: "#222222",
+          color: "var(--mantine-color-gallery-8)",
         },
       },
     },
