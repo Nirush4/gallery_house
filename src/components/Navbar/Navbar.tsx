@@ -19,7 +19,7 @@ export function Navbar() {
 
   return (
     <>
-      <Box bg="red.8" c="#F8F7F4" py={10}>
+      <Box bg="red.9" c="gray.0" py={10}>
         <Container size="xl">
           <Flex justify="space-between" align="center">
             <Box
@@ -36,7 +36,7 @@ export function Navbar() {
             <NavLink
               to="/login"
               style={({ isActive }) => ({
-                color: "#F8F7F4",
+                color: "var(--mantine-color-gray-0)",
                 fontSize: "12px",
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
@@ -51,14 +51,14 @@ export function Navbar() {
       </Box>
 
       <Box
-        bg="#F8F7F4"
+        bg="gray.0"
         style={{
-          borderBottom: "1px solid #E5E7EB",
+          borderBottom: "1px solid var(--mantine-color-gray-3)",
         }}
       >
         <Container size="xl">
           <Flex
-            h={100}
+            h={{ base: 80, md: 100 }}
             align="center"
             justify="space-between"
             pos="relative"
@@ -72,8 +72,9 @@ export function Navbar() {
             <Box
               pos="absolute"
               left="50%"
+              top="50%"
               style={{
-                transform: "translateX(-50%)",
+                transform: "translate(-50%, -50%)",
               }}
             >
               <Logo />
@@ -83,7 +84,7 @@ export function Navbar() {
               <ActionIcon
                 visibleFrom="md"
                 variant="subtle"
-                color="#222222"
+                color="dark"
                 aria-label="Search artwork"
               >
                 <IconSearch size={20} />
@@ -112,18 +113,18 @@ export function Navbar() {
         position="right"
         size="80%"
         title={
-          <Box pr={20}>
+          <Box pr="xl">
             <Logo />
           </Box>
         }
         styles={{
           content: {
-            backgroundColor: "#F8F7F4",
+            backgroundColor: "var(--mantine-color-gray-0)",
           },
           header: {
-            backgroundColor: "#F8F7F4",
-            padding: "24px 24px ",
-            borderBottom: "1px solid #E5E7EB",
+            backgroundColor: "var(--mantine-color-gray-0)",
+            padding: "15px 24px",
+            borderBottom: "1px solid var(--mantine-color-gray-3)",
             alignItems: "center",
           },
           title: {
@@ -136,7 +137,7 @@ export function Navbar() {
           close: {
             width: 44,
             height: 44,
-            color: "#222222",
+            color: "var(--mantine-color-dark-9)",
           },
         }}
       >
