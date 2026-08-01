@@ -1,14 +1,11 @@
-import { TextInput, Title, Text } from "@mantine/core";
+import { Text } from "@mantine/core";
+import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <Title order={1}>Hei</Title>
-      <TextInput
-        label="Input label"
-        description="Input description"
-        placeholder="Input placeholder"
-      />
+      <Navbar />
+
       <Text c="red">Welcome to the website</Text>
     </>
   );
