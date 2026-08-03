@@ -40,7 +40,7 @@ export interface GalleryHeroProps {
 }
 
 export const GalleryHero = ({
-  imageUrl = "https://www.arthistoryproject.com/site/assets/files/13917/peter-paul-rubens-obelisk-art-history.webp",
+  imageUrl = "https://api.nga.gov/iiif/c66840d0-00b2-47d1-a4de-d157ad5712c2/full/!1800,1800/0/default.jpg",
   title = "Where Antiquity Meets the Infinite Digital Form",
   subtitle = "Permanent Collection",
   artist = "Peter Paul Rubens",
