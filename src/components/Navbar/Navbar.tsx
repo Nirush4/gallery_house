@@ -1,3 +1,4 @@
+import type { JSX } from "react/jsx-runtime";
 import {
   ActionIcon,
   Box,
@@ -14,7 +15,7 @@ import { NavLink } from "react-router-dom";
 import { Logo } from "./Logo";
 import { NavLinks } from "./NavLinks";
 
-export function Navbar() {
+export function Navbar(): JSX.Element {
   const [opened, { toggle, close }] = useDisclosure(false);
 
   return (
@@ -24,6 +25,7 @@ export function Navbar() {
           <Flex justify="space-between" align="center">
             <Box
               component="span"
+              c="white"
               style={{
                 fontSize: "12px",
                 letterSpacing: "0.25em",

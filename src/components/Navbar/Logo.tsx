@@ -1,9 +1,10 @@
+import type { JSX } from "react/jsx-runtime";
 import { Image } from "@mantine/core";
 import { Link } from "react-router-dom";
 
 import logo from "../../assets/logo.png";
 
-export function Logo() {
+export function Logo(): JSX.Element {
   return (
     <Link
       to="/"
