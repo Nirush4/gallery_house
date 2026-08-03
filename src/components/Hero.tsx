@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import type { JSX } from "react/jsx-runtime";
 import {
   Box,
@@ -34,7 +34,7 @@ export interface GalleryHeroProps {
 }
 
 export const GalleryHero = ({
-  imageUrl = "https://www.arthistoryproject.com/site/assets/files/13917/peter-paul-rubens-obelisk-art-history.webp",
+  imageUrl = "https://cdn.pixabay.com/photo/2020/04/16/20/26/vincenzo-campi-5052241_1280.jpg",
   title = "Where Antiquity Meets the Infinite Digital Form",
   subtitle = "Permanent Collection",
   artist = "Peter Paul Rubens",
