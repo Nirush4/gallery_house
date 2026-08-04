@@ -1,3 +1,4 @@
+import type { JSX } from "react/jsx-runtime";
 import { Anchor, Group, Stack } from "@mantine/core";
 import { NavLink, useLocation } from "react-router-dom";
 
@@ -21,7 +22,7 @@ interface Props {
   onNavigate?: () => void;
 }
 
-export function NavLinks({ mobile, onNavigate }: Props) {
+export function NavLinks({ mobile, onNavigate }: Props): JSX.Element {
   const location = useLocation();
 
   const items = links.map((link) => {
