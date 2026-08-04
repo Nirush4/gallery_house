@@ -2,10 +2,11 @@ import type { JSX } from "react/jsx-runtime";
 import { Box } from "@mantine/core";
 import { Home } from "./pages/Home";
 import { Navbar } from "./components/Navbar/Navbar";
+import { ArtworkProvider } from "./context/ArtworkContext";
 
 function App(): JSX.Element {
   return (
-    <>
+    <ArtworkProvider>
       <Navbar />
       <Box
         component="main"
@@ -22,7 +23,7 @@ function App(): JSX.Element {
       >
         <Home />
       </Box>
-    </>
+    </ArtworkProvider>
   );
 }
 

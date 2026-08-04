@@ -8,8 +8,8 @@ const links = [
     to: "/",
   },
   {
-    label: "Gallery",
-    to: "/gallery",
+    label: "Collection",
+    to: "/collection",
   },
   {
     label: "Login",
